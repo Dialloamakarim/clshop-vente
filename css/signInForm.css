@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 50px ;
+    background: linear-gradient(to right, #1194ff, #8e44ad);
+}
+.signin-user div {
+    margin: 0 5px  20px 0;
+}
+
+input, select {
+    background-color: #e7d8d8 ;
+    border: none;
+    border-radius: 2px;
+    height: 2em;
+    width: 100%;
+}
+
+label {
+    display: block;
+}
+
+.logo, .login-logo {
+    text-align: center;
+}
+
+.nom-complet {
+    margin: 0;
+    padding: 0;
+    display: block;
+    /* width: 100%; */
+
+}
+.signin-user {
+    align-items: center;
+    background-color: #fff;
+    width: 25em;
+    margin: auto;
+    padding: 10px;
+    border-radius: 8px;
+    justify-content: center;
+
+}
+
+
+.name {
+    /* display: flex; */
+    margin-left: 0;
+    padding-left: 0;
+    
+}
+.short-name {
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+.first-name input, .last-name input {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+input[type=button] {
+    background-color: #df6e6e;
+    color: #fff;
+    border-radius: 4px;
+}
+
+input[type=number] {
+    display: inline;
+    width: 90px;
+    margin: 0 10px 0 0;
+}
+input[type=date] {
+    margin: 5px 0;
+    width: 20px;
+}
+

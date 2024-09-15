@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>closhop - site ecommerce</title>
+</head>
+<body>
+    <!-- debut en tête de la page  -->
+     <div id="entete" style="background: linear-gradient(75deg, blue, red); color: white; font-size: 30px; padding: 20PX;"> 
+        <marquee behavior="alternance" direction="right">
+            BIENVENUE SUR CLSHOP VOTRE BOUTIQUE DE VENTE EN LIGNE
+        </marquee>
+     </div>
+     <!-- fin en tête de la page  -->
+
+    <!-- debut banniere -->
+    <div  id="banniere"> 
+        <div class="banniere-image">
+          <img src="images/pc-lenov1.jpg" alt="l'image d'un ordinateur">
+        </div>
+        <div class="banniere-image">
+          <img src="images/pc-ac2.jpg" alt="l'image d'un ordinateur">
+        </div>
+        <div class="banniere-image">
+          <img src="images/pc-lenov1.jpg" alt="l'image d'un ordinateur">
+        </div>
+    </div>
+    </div>
+    <!-- fin banniere -->
+
+    <!-- debut section contenu de la page -->
+    <div id="contenu">
+      <div id="titre">
+        <h2>nos ordinateur</h2>
+      </div>
+      <div id="liste-produit">
+        <div class="produit">
+          <div class="produit-image">
+            <img src="images/pc-h1.jpg" alt="">
+          </div>
+          <div class="description">
+            <h4>Hp</h4>
+            <p>3 500 000 FG</p>
+            <button>Acheter</button>
+          </div>
+        </div>
+        <div class="produit">
+          <div class="produit-image">
+            <img src="images/pc-h2.jpg" alt="">
+          </div>
+          <div class="description">
+            <h4>Lenovo</h4>
+            <p>4 000 000 FG</p>
+            <button>Acheter</button>
+          </div>
+        </div>
+        <div class="produit">
+          <div class="produit-image">
+            <img src="images/pc-lenov.jpg" alt="">
+          </div>
+          <div class="description">
+            <h4>Dell</h4>
+            <p>5 000 000 FG</p>
+            <button>Acheter</button>
+          </div>
+        </div>
+        <div class="produit">
+          <div class="produit-image">
+            <img src="images/pc-lenov1.jpg" alt="">
+          </div>
+          <div class="description">
+            <h4>lenovo</h4>
+            <p>3 000 000 FG</p>
+            <BUtton>Acheter</BUtton>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- fin section contenu de la page -->
+</body>
+</html>
+
+<style>
+  .banniere-image img {
+    width: 300px;
+  }
+  #banniere {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  .banniere-image{
+    margin: 0 70px;
+  }
+  /* style section contenu de la page  */
+  #titre{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  /* style liste des produits  */
+  .produit {
+    width: 300px;
+    margin: 20px;
+  }
+  .produit-image img {
+    width: 100%;
+    height: 200px;
+  }
+  #liste-produit{
+    display: flex;
+    justify-content: center;
+  }
+  .description{
+    text-align: center;
+  }
+  .description p{
+    color: #ff0000;
+  }
+  .description button {
+    background-color: #000075;
+    color: #FFF;
+    font-size: 1.3em;
+    padding: 10px;
+    border: 10px;
+  }
+  .description button:hover {
+    background-color: #FFF;
+    color: #000075;
+    cursor: pointer;
+  }
+</style>
+<!-- debut section contenu de la page  -->
+ <div id="contenu">
+  <div id="titre">
+    <h2>Nos téléphone</h2>
+  </div>
+  <div id="liste-téléphone">
+    <div class="téléphone-image">
+      <div class="téléphone">
+        <img src="images/1.png" alt="">
+      </div>
+      <div class="description">
+        <h4>Tecno</h4>
+        <p>6 000 000 FG</p>
+        <button>Acheter</button>
+      </div>
+    </div>
+    <div class="téléphone">
+      <div class="téléphone-image">
+        <img src="images/2.png" alt="">
+      </div>
+      <div class="description">
+        <h4>Samsuns</h4>
+        <p>9 000 000 FG</p>
+        <button>Acheter</button>
+      </div>
+     </div>
+     <div class="téléphone">
+      <div class="téléphone-image">
+        <img src="images/3.png" alt="">
+      </div>
+      <div class="description">
+        <h4>Iphone</h4>
+        <p>15 000 000 FG</p>
+        <button>Acheter</button>
+      </div>
+    </div>
+    <div class="téléphone">
+      <div class="téléphone-image">
+        <img src="images/6.png" alt="">
+      </div>
+      <div class="description">
+        <h4>Samsuns</h4>
+        <p>5 000 000 FG</p>
+        <button>Acheter</button>
+      </div>
+    </div>
+  </div>
+ </div>
+ 
+ <!-- fin section de la page  -->
+ <style>
+ /* style section contenu de la page  */
+ #titre{
+  background-color: #000075;
+  color: aqua;
+  font-size: 30px;
+  text-align: center;
+  text-transform: capitalize;
+ }
+ /* style liste des téléphone  */
+ .téléphone{
+  width: 120px;
+  margin: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+ }
+ .téléphone-image img {
+  width: 108%;
+  height: 219px;
+ }
+ #liste-téléphone{
+  display: flex;
+  justify-content: center;
+ }
+ .description {
+  color: #ff0000;
+ }
+ .description button {
+  background-color: #000075;
+  font-size: 1.3em;
+  padding: 10px;
+  border: 10px;
+ }
+ .description button:hover {
+  background-color: #FFF;
+  color: #000075;
+  cursor: pointer;
+ }
+</style>
+<!-- debut section contenu de la page  -->
+<div id="contenu">
+  <div id="titre">
+    <h2>nos tablette</h2>
+  </div>
+  <div id="liste-tablette">
+    <div class="tablette">
+      <div class="tablette-image">
+        <img src="images/iphone1.jpg" alt="">
+      </div>
+      <div class="description">
+        <h4>Iphone</h4>
+        <p>4 500 000 FG</p>
+        <button>Acheter</button>
+      </div>
+    </div>
+    <div class="tablette">
+      <div class="tablette-image">
+        <img src="images/samt.jpg" alt="">
+      </div>
+      <div class="description">
+        <h4>itel</h4>
+        <p>3 000 000 FG</p>
+        <button>Acheter</button>
+      </div>
+    </div>
+    <div class="tablette">
+      <div class="tablette-image">
+        <img src="images/tenta.jpeg" alt="">
+      </div>
+      <div class="description">
+        <h4>Tecno</h4>
+        <p>6 000 000 FG</p>
+        <button>Acheter</button>
+      </div>
+    </div>
+    <div class="tablette">
+      <div class="tablette-image">
+        <img src="images/samsungt.jpg" alt="">
+      </div>
+      <div class="description">
+        <h4>Samsuns</h4>
+        <p>7 000 000 FG</p>
+        <BUtton>Acheter</BUtton>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin section contenu de la page -->
+ <style>
+  /* style section contenu de la page  */
+  #titre {
+    background-color: #000075;
+    color: aqua;
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  /* style liste des tablette  */
+  .tablette{
+    width: 300px;
+    margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .tablette-image img {
+    width: 100%;
+    height: 200px;
+  }
+  #liste-tablette{
+    display: flex;
+    justify-content: center;
+  }
+  .description {
+    color: black;
+  }
+  .description button {
+    background-color: #000075;
+    font-size: 1.3em;
+    padding: 10px;
+  }
+  .description button :hover {
+    background-color: #FFF;
+    color: #000075;
+    cursor: pointer;
+  }
+</style>
+<!-- debut section contenu de la page  -->
+ <div id="contenu">
+  <div id="titre">
+    <h2>Nos produit électrique</h2>
+  </div>
+    <div id="liste-électronique">
+      <div class="électrique">
+        <div class="électronique-image">
+          <img src="images/conge1.jpeg" alt="">
+        </div>
+        <div class="description">
+          <h4>Congélateur</h4>
+          <p>9 00 000 FG</p>
+          <button>Acheter</button>
+        </div>
+      </div>
+      <div class="électrique">
+        <div class="électronique-image">
+          <img src="images/fer.jpg" alt="">
+        </div>
+        <div class="description">
+          <h4>Fer</h4>
+          <p>3 00 000 FG</p>
+          <button>Acheter</button>
+        </div>
+      </div>
+      <div class="électrique">
+        <div class="électronique-image">
+          <img src="images/clim.jpeg" alt="">
+        </div>
+        <div class="description">
+          <h4>Climatiseur</h4>
+          <p>2 000 000 FG</p>
+          <button>Acheter</button>
+        </div>
+      </div>
+      <div class="électrique">
+        <div class="électronique-image">
+          <img src="images/rechaud.jpeg" alt="">
+        </div>
+        <div class="description">
+          <h4>Rechaud</h4>
+          <p>2 00 000 FG</p>
+          <button>Acheter</button>
+        </div>
+       </div>
+    </div>
+    <!-- fin section contenu de la page  -->
+     <style>
+      /* style section contenu de la page  */
+      #titre{
+        background-color: #000075;
+        color: aqua;
+        font-size: 30px;
+        text-align: center;
+        text-transform: capitalize;
+      }
+      /* style liste électronique  */
+      .électrique{
+        width: 315px;
+        margin: 9px;
+      }
+      .électronique-image{
+        width:  100%;
+        height: 310px;
+      }
+      #liste-électronique{
+        display: flex;
+        justify-content: center;
+      }
+      .description {
+        color: black;
+     }
+     .description button {
+        background-color: #000075;
+        font-size: 1.3em;
+        padding: 10px;
+     }
+     .description button :hover {
+       background-color: #FFF;
+       color: #000075;
+       cursor: pointer;
+     }
+     
